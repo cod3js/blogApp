@@ -1,25 +1,11 @@
-# ReduxSimpleStarter
+# My version of Stephen Griders blog app from React Redux UDEMY course
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Well similarly to a few people in the course, I have an issues with data dependency.  When I go to the Posts page, I am able to too see all the linked posts, I click on a post, my app navigates to the show post.  I see the details of the post, however when I hit refresh in my browser, it throws an error, and will no go past the loading..
 
-### Getting Started
+The app doesn't seam to have a way to get back out to the posts and I am getting a 404 error on the post ID in the console.  
 
-There are two methods for getting started with this repo.
+The console logs an error with undefined id.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+This error effect the last (3) videos of the course dealing with PostsShow and DeletePost.
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+Looking for any help, Thank you.
